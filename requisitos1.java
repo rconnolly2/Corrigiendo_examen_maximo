@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class requisitos1 {
 
-    public static boolean login_user(String username, String password) {
+    public static boolean check_creds(String username, String password) {
         String user = "admin";
         String pass = "admin";
 
@@ -17,7 +17,7 @@ public class requisitos1 {
         int amount_attempts = 0;
         while(amount_attempts<2) {
 
-            if (login_user(username, password) == true) {
+            if (check_creds(username, password) == true) {
                 amount_attempts++;
                 System.out.println("You are in!" + " attempts: " + amount_attempts);
                 break;
