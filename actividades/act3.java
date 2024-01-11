@@ -7,10 +7,6 @@ public class act3 {
         } else {
             return false;
         }
-
-
-        
-
     }
 
     public static void main(String[] args) {
