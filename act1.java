@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class act1 {
 
-    public static void DameBin(int n) {
+    public static void decimalBinario(int n) {
         String n_bin = "";
         while(n>=1) {
             n_bin += n%2;
@@ -16,7 +16,7 @@ public class act1 {
     }
 
     public static void main(String[] args) {
-        DameBin(6);
+        decimalBinario(6);
       
         System.exit(0); // fin del programa
     }
